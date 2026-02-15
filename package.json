@@ -27,7 +27,9 @@
     "pino-http": "^11.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.0.0",
+    "globals": "^17.3.0",
     "nodemon": "^3.1.11"
   }
 }
