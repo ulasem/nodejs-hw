@@ -7,14 +7,17 @@ const noteSchema = new mongoose.Schema(
       type: String,
       required: true,
       minlength: 1,
+      trim: true,
     },
     content: {
       type: String,
       default: '',
+      trim: true,
     },
     tag: {
       type: String,
       enum: TAGS,
+      default: 'Todo',
     },
   },
   {
